@@ -3,7 +3,7 @@
   "short_name": "DC@H",
   "lang": "en-GB",
   "scope": "/",
-  "start_url": "https://sumsapps.github.io/clinic-home/",
+  "start_url": "https://clinicathome.swan.ac.uk",
   "display": "standalone",
   "orientation": "landscape",
   "serviceworker":
