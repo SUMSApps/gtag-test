@@ -26,15 +26,19 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="application-name" content="DC@H">
 <meta name="apple-mobile-web-app-title" content="DC@H">
-<meta name="msapplication-starturl" content="https://clinicathome.swan.ac.uk">
+<meta name="msapplication-starturl" content="https://sumsapps.github.io/clinic-home/">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="apple-touch-icon" href="story_content/touch-icon-iphone.png">
 <link rel="apple-touch-icon" sizes="152x152" href="story_content/touch-icon-ipad.png">
 <link rel="apple-touch-icon" sizes="180x180" href="story_content/touch-icon-iphone-retina.png">
 <link rel="apple-touch-icon" sizes="167x167" href="story_content/touch-icon-ipad-retina.png">
-<script src="insc.js" type="text/javascript"></script>
 <script src="story_content/pleaserotate.js" type="text/javascript"></script>
-  <script src="story_content/addtohomescreen.js"></script>
+<script src="insc.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="story_content/a2hs/style/addtohomescreen.css">
+<script src="story_content/a2hs/src/addtohomescreen.js"></script>
+<script>
+addToHomescreen();
+</script>
   <script>
         'serviceWorker' in navigator && window.addEventListener('load', navigator.serviceWorker.register('/service-worker.js'))
     </script>
@@ -154,9 +158,6 @@
     }
   </script>
   <link rel="stylesheet" href="html5/data/css/output.min.css" data-noprefix/>
-<script>
-addToHomescreen();
-</script>
 </body>
 <script src="html5/lib/scripts/bootstrapper.min.js"></script>
 </html>
