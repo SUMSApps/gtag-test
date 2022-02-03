@@ -37,7 +37,13 @@
 <link rel="stylesheet" type="text/css" href="story_content/a2hs/style/addtohomescreen.css">
 <script src="story_content/a2hs/src/addtohomescreen.js"></script>
 <script>
+if(
+(("standalone" in window.navigator) && !window.navigator.standalone)
+||
+(!window.matchMedia('(display-mode: standalone)').matches )
+) {
 addToHomescreen();
+}
 </script>
   <script>
         'serviceWorker' in navigator && window.addEventListener('load', navigator.serviceWorker.register('/service-worker.js'))
